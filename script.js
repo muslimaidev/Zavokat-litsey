@@ -18,7 +18,7 @@ const scores = [
     updateMatchScore(`score${index + 1}-1`, score.tur1);
     updateMatchScore(`score${index + 1}-2`, score.tur2);
     updateMatchScore(`score${index + 1}-3`, score.tur3);
-    updateMatchScore(`score${index + 1}-4`, score.tur4);
+    // updateMatchScore(`score${index + 1}-4`, score.tur4);
     updateMatchScore(`total${index + 1}`, total);
   });
 document.getElementById("startButton").addEventListener("click", function() {
