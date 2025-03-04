@@ -37,8 +37,8 @@ document.getElementById("startButton").addEventListener("click", function() {
   function sortTable() {
     const rows = Array.from(document.querySelectorAll("#matches tr"));
     rows.sort((rowA, rowB) => {
-      const totalA = parseInt(rowA.cells[5].textContent, 10);
-      const totalB = parseInt(rowB.cells[5].textContent, 10);
+      const totalA = parseInt(rowA.cells[4].textContent, 10);
+      const totalB = parseInt(rowB.cells[4].textContent, 10);
       return totalB - totalA;
     });
   
