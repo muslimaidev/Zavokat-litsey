@@ -18,7 +18,7 @@ const scores = [
     updateMatchScore(`score${index + 1}-1`, score.tur1);
     updateMatchScore(`score${index + 1}-2`, score.tur2);
     updateMatchScore(`score${index + 1}-3`, score.tur3);
-    // updateMatchScore(`score${index + 1}-4`, score.tur4);
+    updateMatchScore(`score${index + 1}-4`, score.tur4);
     updateMatchScore(`total${index + 1}`, total);
   });
 document.getElementById("startButton").addEventListener("click", function() {
@@ -37,8 +37,8 @@ document.getElementById("startButton").addEventListener("click", function() {
   function sortTable() {
     const rows = Array.from(document.querySelectorAll("#matches tr"));
     rows.sort((rowA, rowB) => {
-      const totalA = parseInt(rowA.cells[4].textContent, 10);
-      const totalB = parseInt(rowB.cells[4].textContent, 10);
+      const totalA = parseInt(rowA.cells[5].textContent, 10);
+      const totalB = parseInt(rowB.cells[5].textContent, 10);
       return totalB - totalA;
     });
   
