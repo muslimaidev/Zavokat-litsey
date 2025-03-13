@@ -1,7 +1,7 @@
 // Har bir jamoa uchun ballarni kiritish
 const scores = [
     {name: "1-24 guruhi", tur1: 3, tur2: 2.5, tur3: 5, tur4: 1}, // Jamoa 1
-    {name: "2-24 guruhi", tur1: 4, tur2: 5, tur3: 6.5, tur4: 3}, // Jamoa 2
+    {name: "2-24 guruhi", tur1: 10, tur2: 5, tur3: 6.5, tur4: 3}, // Jamoa 2
     {name: "3-24 guruhi", tur1: 3, tur2: 5.5, tur3: 6, tur4: 3}, // Jamoa 3
     {name: "4-24 guruhi", tur1: 4, tur2: 2, tur3: 6, tur4: 1}, // Jamoa 4
     {name: "5-24 guruhi", tur1: 4, tur2: 5, tur3: 4.5, tur4: 0}, // Jamoa 5
