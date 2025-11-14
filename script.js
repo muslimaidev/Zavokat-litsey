@@ -1,13 +1,13 @@
 // Har bir jamoa uchun ballarni kiritish
 const scores = [
-    {name: "2-25 guruhi", tur1: 4, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 1
-    {name: "3-25 guruhi", tur1: 7, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 2
-    {name: "4-25 guruhi", tur1: 3, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 3
-    {name: "5-25 guruhi", tur1: 8, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 4
-    {name: "2-24 guruhi", tur1: 5, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 5
-    {name: "3-24 guruhi", tur1: 6, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 6
-    {name: "4-24 guruhi", tur1: 3.5, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 7
-    {name: "5-24 guruhi", tur1: 5, tur2: 0, tur3: 0, tur4: 0}, // Jamoa 8
+    {name: "2-25 guruhi", tur1: 4, tur2: 2, tur3: 0, tur4: 0}, // Jamoa 1
+    {name: "3-25 guruhi", tur1: 7, tur2: 3, tur3: 0, tur4: 0}, // Jamoa 2
+    {name: "4-25 guruhi", tur1: 3, tur2: 1, tur3: 0, tur4: 0}, // Jamoa 3
+    {name: "5-25 guruhi", tur1: 8, tur2: 4, tur3: 0, tur4: 0}, // Jamoa 4
+    {name: "2-24 guruhi", tur1: 5, tur2: 4, tur3: 0, tur4: 0}, // Jamoa 5
+    {name: "3-24 guruhi", tur1: 6, tur2: 3, tur3: 0, tur4: 0}, // Jamoa 6
+    {name: "4-24 guruhi", tur1: 3.5, tur2: 3, tur3: 0, tur4: 0}, // Jamoa 7
+    {name: "5-24 guruhi", tur1: 5, tur2: 2, tur3: 0, tur4: 0}, // Jamoa 8
   ];
 
   // Har bir jamoa uchun ballarni jadvalga joylashtirish
